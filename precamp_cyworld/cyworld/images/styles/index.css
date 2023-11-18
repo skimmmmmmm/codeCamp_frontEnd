@@ -51,17 +51,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 30px;
 }
 
 .left__body__header {
-
+    width: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left__body__header__gray {
-
+    width: 148px;
+    height: 133px;
+    background-color: gray;
 }
 
-.left_-body_-header__right {
+.left__body__header__line {
+    border-top: 1px dotted black;
+    margin: 12px 0px;
+}
+
+.left__body__header__right {
 
 }
 
