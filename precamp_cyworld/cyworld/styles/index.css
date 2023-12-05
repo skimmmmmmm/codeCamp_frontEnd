@@ -39,6 +39,7 @@
 }
 
 .today {
+    padding-top: 10px;
     font-size: 9px;
 }
 
@@ -64,6 +65,7 @@
     width: 148px;
     height: 133px;
     background-color: gray;
+    margin-top: 100px;
 }
 
 .left__body__header__line {
