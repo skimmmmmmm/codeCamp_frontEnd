@@ -104,13 +104,6 @@
     flex-direction: row;
 }
 
-.fas {
-    color: black;
-    margin-right: 10px;
-    width: 5px;
-    height: 5px;
-}
-
 .left__body__footer {
     width: 100%;
     margin-bottom: 30px;
