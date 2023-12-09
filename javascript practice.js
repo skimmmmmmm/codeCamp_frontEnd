@@ -24,3 +24,27 @@ false || true
 // true
 !true
 // false
+
+
+// 조건문 실습 1
+
+
+// 조건문 실습 2
+const profile = {
+    name: "철수",
+    age: 12,
+    school: "다람쥐초등학교"
+}
+// undefined
+profile
+// {name: '철수', age: 12, school: '다람쥐초등학교'}
+if(profile.age >= 20) {
+    console.log("성인입니다")
+} else if(profile.age >= 8) {
+    console.log("학생입니다")
+} else if(profile.age > 0) {
+    console.log("어린이입니다")
+} else {
+    console.log("잘못 입력하셨습니다")
+}
+// VM1751:4 학생입니다
