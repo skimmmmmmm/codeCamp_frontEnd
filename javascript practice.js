@@ -27,7 +27,41 @@ false || true
 
 
 // 조건문 실습 1
-
+if(1+1 === 2) {
+    console.log("정답입니다")
+} else {
+    console.log("틀렸습니댜")
+}
+// VM2078:2 정답입니다
+// undefined
+if(true) {
+    console.log("정답입니다")
+} else {
+    console.log("틀렸습니다")
+}
+// VM2320:2 정답입니다
+// undefined
+if(!true) {
+    console.log("정답입니다")
+} else {
+    console.log("틀럈습니다")
+}
+// VM2581:4 틀럈습니다
+// undefined
+if(0) {
+    console.log("정답입니다")
+} else {
+    console.log("틀렸습니다")
+}
+VM2846:4 틀렸습니다
+undefined
+if(1) {
+    console.log("정답입니다")
+} else {
+    console.log("틀렸습니다")
+}
+// VM3042:2 정답입니다
+// undefined
 
 // 조건문 실습 2
 const profile = {
