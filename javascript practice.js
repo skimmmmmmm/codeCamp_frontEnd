@@ -53,8 +53,8 @@ if(0) {
 } else {
     console.log("틀렸습니다")
 }
-VM2846:4 틀렸습니다
-undefined
+// VM2846:4 틀렸습니다
+// undefined
 if(1) {
     console.log("정답입니다")
 } else {
